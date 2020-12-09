@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+}
+.brands {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.brand-title{
+    font-size: 15px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+
+.brand-name{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  whitesmoke;
+    text-align: center;
+    background-color:  rgb(71, 6, 71);
+}
+html{
+    background-color: rgb(12, 1, 1);
+}
+/*nav styles*/
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+   
+}
+.left-side{
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+    }
+    
+    .nav-link-wrapper {
+        height: 22px;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.5s;
+        }
+
+        .nav-link-wrapper a {
+            color: whitesmoke;
+            text-decoration: none;
+            transition: color 0.5s;
+
+        }
+
+        .nav-link-wrapper :hover{
+            border-bottom: 1px solid rgba(90, 173, 228, 0.932);
+        }
+
+        .nav-link-wrapper a:hover{
+            color:rgba(90, 173, 228, 0.932);
+        }
+
+        /*brands styles*/
+        .brands{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .brands-image-background {
+            height: 350px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .bmw{
+            
+            color: whitesmoke;
+            text-align: center;
+            
+          
+           }
+          .bmw a{
+            color: whitesmoke;
+            text-decoration: none;
+            transition: color 0.5s;
+
+          }
+
+           .bmw a:hover{
+            color:  rgba(90, 173, 228, 0.932);
+           }
+
+           .bmw img{
+               width: 40%;
+           }
